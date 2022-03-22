@@ -10,6 +10,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var txv: TextView = findViewById<TextView>(R.id.txv)
         txv.text = "Hello whit3"
-
+        TestMaster()
     }
+    fun TestMaster(){
+        var txv:TextView = findViewById<TextView>(R.id.txv)
+        txv.text = "Master分支"
+    }
+
 }
